@@ -1,11 +1,11 @@
-const express = require('express');
+// const express = require('express');
 
-const path = require('path');
+// const path = require('path');
 
-const app = express();
+// const app = express();
 
-app.use(express.static(__dirname + '/dist'))
+// app.use(express.static(__dirname + '/dist'))
 
-const PORT = process.env.PORT || 5000
+// const PORT = process.env.PORT || 5000
 
-app.listen(PORT, () => console.log(`Server started  on port ${PORT}`))
+// app.listen(PORT, () => console.log(`Server started  on port ${PORT}`))
